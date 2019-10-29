@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="web">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded.war</output-path>
+    <root id="archive" name="web.war">
+      <element id="javaee-facet-resources" facet="web/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web" />
+          <element id="module-output" name="ejb" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
